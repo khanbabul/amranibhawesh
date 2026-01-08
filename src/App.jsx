@@ -4,7 +4,7 @@ import { Star, ChevronRight } from "lucide-react";
 import nedLogo from "./assets/university.png";
 import NedUniversity from "./assets/welcome.jpg";
 import NedCampus from "./assets/nedcampus.jpg"
-import Classroom from "./assets/Classroom.jpg"
+import Classroom from "./assets/classroom.jpg"
 import FacilityHouse from "./assets/class.jpg"
 import IntroGate from "./assets/mainGate.jpeg"
 import TiestBus from "./assets/park.jpeg"
