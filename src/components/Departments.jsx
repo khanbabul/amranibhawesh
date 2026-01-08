@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SatelliteImage from "../assets/satelliteImage.png"
-import "./departments.css";
+import "./Departments.css";
 
 const Department = () => {
   const [active, setActive] = useState("vc");
