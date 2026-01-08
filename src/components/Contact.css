@@ -1,0 +1,403 @@
+.contact-container {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact-header h1 {
+  color: #1a365d;
+  margin-bottom: 0.5rem;
+}
+
+.contact-subtitle {
+  color: #4a5568;
+  font-size: 1.1rem;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.contact-info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.university-address h2,
+.emergency-contacts h2,
+.department-contacts h2 {
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.address-card {
+  background: #f7fafc;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+.address-card h3 {
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.contact-details {
+  margin-top: 1rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-item .icon {
+  font-size: 1.2rem;
+}
+
+.emergency-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.emergency-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: 1px solid #e2e8f0;
+}
+
+.emergency-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.departments-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.department-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border: 1px solid #e2e8f0;
+}
+
+.department-card h4 {
+  color: #2d3748;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #4299e1;
+}
+
+.dept-details p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+.btn-contact-dept {
+  background: #4299e1;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.3s;
+}
+
+.btn-contact-dept:hover {
+  background: #3182ce;
+}
+
+.contact-form-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.form-header {
+  margin-bottom: 2rem;
+}
+
+.form-header h2 {
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 0.5rem;
+  color: #4a5568;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #4299e1;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.1);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btn-submit {
+  background: #4299e1;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn-submit:hover {
+  background: #3182ce;
+}
+
+.btn-reset {
+  background: #e2e8f0;
+  color: #4a5568;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn-reset:hover {
+  background: #cbd5e0;
+}
+
+.success-message {
+  background: #c6f6d5;
+  border: 1px solid #9ae6b4;
+  color: #22543d;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.success-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.response-time {
+  margin-top: 2rem;
+}
+
+.time-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.time-card {
+  background: #f7fafc;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+}
+
+.time-icon {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.campus-location {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: #f7fafc;
+  border-radius: 10px;
+}
+
+.campus-location h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.location-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.map-placeholder {
+  background: #e2e8f0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}
+
+.map-image {
+  text-align: center;
+}
+
+.map-icon {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.directions h3 {
+  margin-bottom: 1.5rem;
+}
+
+.direction-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.social-media {
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  /* gap: 1rem; */
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #4a5568;
+  transition: all 0.3s;
+}
+
+.social-link:hover {
+  transform: translateY(-2px);
+  /* box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
+}
+
+.social-link.facebook:hover {
+  background: #1877f2;
+  color: white;
+}
+
+.social-link.twitter:hover {
+  background: #1da1f2;
+  color: white;
+}
+
+.social-link.instagram:hover {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  color: white;
+}
+
+.social-link.linkedin:hover {
+  background: #0077b5;
+  color: white;
+}
+
+.social-link.youtube:hover {
+  background: #ff0000;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .location-info {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 1rem;
+  }
+  
+  .departments-grid,
+  .emergency-cards,
+  .time-cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .social-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-link {
+    width: 200px;
+    justify-content: center;
+  }
+}
