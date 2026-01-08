@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./research.css";
+import "./Research.css";
 import NEDLogo from "../assets/university.png"; // Add NED University logo in assets folder
 
 const researchData = [
